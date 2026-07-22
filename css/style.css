@@ -240,7 +240,7 @@ section { scroll-margin-top: 90px; }
 .hero-row {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 36px;
   flex-wrap: wrap;
 }
@@ -248,7 +248,7 @@ section { scroll-margin-top: 90px; }
 .hero-text {
   flex: 1 1 480px;
   min-width: 280px;
-  max-width: 640px;
+  max-width: 720px;
 }
 
 .hero-text h1 {
