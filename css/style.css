@@ -159,31 +159,17 @@ a:hover { color: #ea580c; }
   z-index: 5;
 }
 
-.search {
+.topbar-tagline {
   flex: 1 1 auto;
   min-width: 0;
-  max-width: 480px;
   display: flex;
   align-items: center;
-  gap: 10px;
-  background: #fff;
-  border-radius: 999px;
-  padding: 10px 18px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-}
-
-.search-icon { opacity: 0.5; }
-
-.search input {
-  border: none;
-  outline: none;
-  flex: 1;
-  min-width: 0;
-  font-family: 'Inter', sans-serif;
+  gap: 8px;
   font-size: 14px;
-  background: transparent;
-  color: #262220;
+  font-weight: 600;
+  color: #6b4423;
 }
+.topbar-tagline .msi { font-size: 18px; color: #ea580c; flex: 0 0 auto; }
 
 .topbar-actions {
   margin-left: auto;
@@ -373,6 +359,8 @@ section { scroll-margin-top: 90px; }
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
+
+.services-grid-4 { grid-template-columns: repeat(4, 1fr); }
 
 .card {
   background: #fff;
